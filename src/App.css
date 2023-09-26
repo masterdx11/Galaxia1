@@ -1,0 +1,25 @@
+.app {
+    background-image: url(/galax1.jpg);
+    background-size: cover;
+    background-position:center ;
+    
+    
+}
+
+
+.app.galax1 {
+    background-image: url(/galax1.jpg);
+}
+
+.app.galax2 {
+    background-image: url(/galax2.jpg);
+}
+
+.app.galax3 {
+    background-image: url(/galax3.jpg);
+}
+
+.app.galax4 {
+    background-image: url(/galax4.jpg);
+    
+}

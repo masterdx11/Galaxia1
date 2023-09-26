@@ -1,0 +1,54 @@
+.quoteCard {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  color: #25063F;
+  font-weight: 400px;
+  word-wrap: break-word;
+  
+}
+
+.quoteCard__phrase {
+  margin: 30px auto;
+  max-width: 400px;
+  border: 2px solid #25063f;
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(180deg, #ffffff, #ffffff54);
+  font-size: 16px;
+
+font-weight: 400;
+}
+
+.luna {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+.quoteCard__btn {
+  position: relative;
+  z-index: 1;
+}
+
+.quoteCard__title {
+color: white;
+font-size: 32px;
+font-weight: 400;
+word-wrap: break-word
+}
+
+
+
+.quoteCard__footer {
+color: white;
+font-size: 16.04px;
+
+font-weight: 400;
+word-wrap: break-word
+}
